@@ -77,6 +77,7 @@ html_web = f'''
     <div>
         <h1>La liga del tiburón negro</h1>
         <span>Septiembre - Octubre 2020</span>
+        <img src="white_shark.png">
     </div>
 
     <div>
@@ -126,8 +127,8 @@ html_web = f'''
 <h4> Most improved </h4>
 { pe.head(5).to_html(index=False)}
 
-
 <h4> Most actions </h4>
+<span> action = touchdowns + passes + casualities + interceptions </span>
 { actions.head(5).to_html(index=False)}
 
 </div>

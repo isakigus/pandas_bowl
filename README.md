@@ -8,6 +8,10 @@ Execute:
 
 `python3 scripts/create_html.py`
 
+Visit
+
+[Visit La liga del tiburón stats](https://isakigus.github.io/pandas_bowl/)
+
 
 # Notes
 
