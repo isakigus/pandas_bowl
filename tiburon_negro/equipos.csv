@@ -1,7 +1,7 @@
 id,entrendor,nombre,raza,tesoro,so,factor_inchas,medico,valor,valor_so
 1,teo,rasmni,elfos_silvanos,0,3,6,false,1180,50
-2,isaac,destellos_verdes,slan,0,4,5,false,1410,50
-3,isaac,relampagos_oscuros,elfos_negros,0,2,5,false,1150,50
+2,isaac,destellos_verdes,slan,30,4,6,false,1410,50
+3,isaac,relampagos_oscuros,elfos_negros,0,2,6,false,1250,50
 4,isaac,selvaticas,amazonas,130,3,4,true,1430,50
-5,teo,marsoki,goblins,10,4,5,true,1360,60
-6,teo,invencibles,no_muertos,80,3,6,false,1310,70
+5,teo,marsoki,goblins,30,4,6,true,1400,60
+6,teo,invencibles,no_muertos,60,4,6,false,1310,70
