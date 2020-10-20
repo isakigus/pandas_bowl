@@ -45,7 +45,7 @@ def get_teams_aggregates(data_path, teams_data_path, palyers_team_aggregates):
         'raza',
         'touchdowns',
         'passes',
-        'casualities',
+        'casualties',
         'interceptions',
         'mvp',
         'actions',

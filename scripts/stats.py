@@ -12,10 +12,10 @@ def get_stats(data_path):
     players = players.fillna(value=0)
 
     players['PE'] = players['passes']+players['touchdowns']*3 + \
-        (players['interceptions']+players['casualities'])*2+players['mvp'] * 5
+        (players['interceptions']+players['casualties'])*2+players['mvp'] * 5
 
     players['actions'] = players['passes']+players['touchdowns'] + \
-        players['interceptions']+players['casualities']
+        players['interceptions']+players['casualties']
 
     print('\n *** TOP TOUCHDOWNS ***\n')
 
@@ -41,11 +41,11 @@ def get_stats(data_path):
         by=['mvp', 'PE'], ascending=False)
     print(mvp.head(10))
 
-    print('\n *** TOP CASUALITIES ***\n')
+    print('\n *** TOP casualties ***\n')
 
-    casualities = players[players['casualities'] > 0].sort_values(
-        by=['casualities', 'PE'], ascending=False)
-    print(casualities.head(10))
+    casualties = players[players['casualties'] > 0].sort_values(
+        by=['casualties', 'PE'], ascending=False)
+    print(casualties.head(10))
 
     print('\n *** TOP MOST IMPORVED ***\n')
 
@@ -71,4 +71,4 @@ def get_stats(data_path):
     team_aggregates["touchdowns"] = pd.to_numeric(
         team_aggregates["touchdowns"], downcast='integer')
 
-    return touchdowns, passes, interceptions, mvp, casualities, pe, actions, team_aggregates
+    return touchdowns, passes, interceptions, mvp, casualties, pe, actions, team_aggregates

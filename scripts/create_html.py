@@ -13,7 +13,7 @@ teams_data_path = "tiburon_negro/equipos.csv"
     passes,
     interceptions,
     mvp,
-    casualities,
+    casualties,
     pe,
     actions,
     palyers_team_aggregates
@@ -115,8 +115,8 @@ html_web = f'''
 <h4> Passes </h4>
 { passes.head(5).to_html(index=False)}
 
-<h4> Casualities </h4>
-{ casualities.head(5).to_html(index=False)}
+<h4> casualties </h4>
+{ casualties.head(5).to_html(index=False)}
 
 <h4> MVPs </h4>
 { mvp.head(5).to_html(index=False)}
@@ -128,7 +128,7 @@ html_web = f'''
 { pe.head(5).to_html(index=False)}
 
 <h4> Most actions </h4>
-<span> action = touchdowns + passes + casualities + interceptions </span>
+<span> action = touchdowns + passes + casualties + interceptions </span>
 { actions.head(5).to_html(index=False)}
 
 </div>
