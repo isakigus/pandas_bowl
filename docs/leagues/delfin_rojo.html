@@ -1,0 +1,778 @@
+
+
+    <html>
+    <head>
+    <meta charset="utf-8"/>
+    <title>Delfín Rojo</title>
+    <style>
+        body {
+            color: white;
+            background-color:#734e4e;
+            margin:40px;
+        }
+        
+a {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:visited {
+  background-color: #ccc;
+}
+
+
+
+table, th, td {
+border: 1px solid white;
+border-collapse: collapse;
+text-align: right;
+}
+
+
+th, td {
+padding: 15px;
+}
+
+.container {
+
+    display:flex;
+    align-items:space-around;
+}
+
+.container > div {
+margin:10px;
+}
+
+.calendario {
+    width :80%;
+}
+
+    </style>
+    </head>
+
+
+    <body>
+        <div>
+        <a href="../index.html">Go back</a>
+            <h1>La liga del delfín sin fín</h1>
+            <span>Octubre - Diciembre 2020</span>
+            <img src="dolphin-2-xxl.png">
+        </div>
+
+        <div>
+            <h3> Equipos <h3>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>raza</th>
+      <th>entrendor</th>
+      <th>so</th>
+      <th>valor_so</th>
+      <th>factor_inchas</th>
+      <th>medico</th>
+      <th>valor_calculado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>jinetes del ocaso</th>
+      <td>vampiros</td>
+      <td>isaac</td>
+      <td>2</td>
+      <td>70</td>
+      <td>2</td>
+      <td>False</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>neme</th>
+      <td>nigromantes</td>
+      <td>teo</td>
+      <td>2</td>
+      <td>70</td>
+      <td>2</td>
+      <td>False</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>nimgri</th>
+      <td>nurgle</td>
+      <td>teo</td>
+      <td>1</td>
+      <td>70</td>
+      <td>1</td>
+      <td>False</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>ekilikua</th>
+      <td>ogros</td>
+      <td>isaac</td>
+      <td>1</td>
+      <td>70</td>
+      <td>3</td>
+      <td>False</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>jemen</th>
+      <td>lagartos</td>
+      <td>teo</td>
+      <td>1</td>
+      <td>60</td>
+      <td>2</td>
+      <td>False</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>asgard</th>
+      <td>norse</td>
+      <td>isaac</td>
+      <td>2</td>
+      <td>60</td>
+      <td>2</td>
+      <td>False</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>michen</th>
+      <td>halflings</td>
+      <td>teo</td>
+      <td>5</td>
+      <td>60</td>
+      <td>3</td>
+      <td>True</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>frentenadie</th>
+      <td>enanos</td>
+      <td>teo</td>
+      <td>3</td>
+      <td>50</td>
+      <td>3</td>
+      <td>True</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>redeyes</th>
+      <td>khemri</td>
+      <td>isaac</td>
+      <td>3</td>
+      <td>70</td>
+      <td>3</td>
+      <td>False</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>cometas siderales</th>
+      <td>humanos</td>
+      <td>isaac</td>
+      <td>2</td>
+      <td>50</td>
+      <td>2</td>
+      <td>True</td>
+      <td>nan</td>
+    </tr>
+  </tbody>
+</table>
+            <h4> Team stats </h4>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>raza</th>
+      <th>touchdowns</th>
+      <th>passes</th>
+      <th>casualties</th>
+      <th>interceptions</th>
+      <th>mvp</th>
+      <th>actions</th>
+      <th>PE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>jinetes del ocaso</th>
+      <td>vampiros</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>neme</th>
+      <td>nigromantes</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>nimgri</th>
+      <td>nurgle</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>ekilikua</th>
+      <td>ogros</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>jemen</th>
+      <td>lagartos</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>asgard</th>
+      <td>norse</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>michen</th>
+      <td>halflings</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>frentenadie</th>
+      <td>enanos</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>redeyes</th>
+      <td>khemri</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>cometas siderales</th>
+      <td>humanos</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+
+        <div>
+            <h3> Clasificacion <h3>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>partidos_jugados</th>
+      <th>win</th>
+      <th>draw</th>
+      <th>lose</th>
+      <th>points</th>
+      <th>score</th>
+      <th>score_againts</th>
+      <th>score_diff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>cometas siderales</th>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>frentenadie</th>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>jeman</th>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>jinetes del ocaso</th>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>asgard</th>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>michen</th>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>nimgri</th>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <th>redeyes</th>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+
+        <div class="calendario">
+            <h3> Calendario <h3>
+            <div class="container">
+            <div><h3> JORNADA 1</h3><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>jinetes del ocaso</td>
+      <td>nimgri</td>
+      <td>2-1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>frentenadie</td>
+      <td>asgard</td>
+      <td>0-2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>cometas siderales</td>
+      <td>michen</td>
+      <td>4-2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>jeman</td>
+      <td>redeyes</td>
+      <td>1-2</td>
+    </tr>
+  </tbody>
+</table> </div><div><h3> JORNADA 2</h3><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table> </div><div><h3> JORNADA 3</h3><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table> </div><div><h3> JORNADA 4</h3><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table> </div><div><h3> JORNADA 5</h3><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table> </div><div><h3> JORNADA 6</h3><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table> </div>
+
+            </div>
+
+            <h3> Calendario Equipos<h3>
+            <div class="container">
+            <div><h3> EQUIPO jeman</h3> <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>jornada</th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+      <th>inchas</th>
+      <th>ingresos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>jeman</td>
+      <td>redeyes</td>
+      <td>1-2</td>
+      <td>50-60</td>
+      <td>60-60</td>
+    </tr>
+  </tbody>
+</table> </div><div><h3> EQUIPO cometas siderales</h3> <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>jornada</th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+      <th>inchas</th>
+      <th>ingresos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2</th>
+      <td>1</td>
+      <td>cometas siderales</td>
+      <td>michen</td>
+      <td>4-2</td>
+      <td>20-30</td>
+      <td>40-40</td>
+    </tr>
+  </tbody>
+</table> </div><div><h3> EQUIPO frentenadie</h3> <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>jornada</th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+      <th>inchas</th>
+      <th>ingresos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>frentenadie</td>
+      <td>asgard</td>
+      <td>0-2</td>
+      <td>100-70</td>
+      <td>50-40</td>
+    </tr>
+  </tbody>
+</table> </div><div><h3> EQUIPO jinetes del ocaso</h3> <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>jornada</th>
+      <th>equipo1</th>
+      <th>equipo2</th>
+      <th>resultado</th>
+      <th>inchas</th>
+      <th>ingresos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>jinetes del ocaso</td>
+      <td>nimgri</td>
+      <td>2-1</td>
+      <td>80-80</td>
+      <td>70-50</td>
+    </tr>
+  </tbody>
+</table> </div>
+
+            </div>
+        </div>
+
+    <div>
+    <h3> Estaditicas </h3>
+
+    <h4> Touchdowns </h4>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>equipo</th>
+      <th>numero</th>
+      <th>nombre</th>
+      <th>touchdowns</th>
+      <th>passes</th>
+      <th>interceptions</th>
+      <th>mvp</th>
+      <th>casualties</th>
+      <th>value</th>
+      <th>PE</th>
+      <th>actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+    <h4> Passes </h4>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>equipo</th>
+      <th>numero</th>
+      <th>nombre</th>
+      <th>touchdowns</th>
+      <th>passes</th>
+      <th>interceptions</th>
+      <th>mvp</th>
+      <th>casualties</th>
+      <th>value</th>
+      <th>PE</th>
+      <th>actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+    <h4> casualties </h4>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>equipo</th>
+      <th>numero</th>
+      <th>nombre</th>
+      <th>touchdowns</th>
+      <th>passes</th>
+      <th>interceptions</th>
+      <th>mvp</th>
+      <th>casualties</th>
+      <th>value</th>
+      <th>PE</th>
+      <th>actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+    <h4> MVPs </h4>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>equipo</th>
+      <th>numero</th>
+      <th>nombre</th>
+      <th>touchdowns</th>
+      <th>passes</th>
+      <th>interceptions</th>
+      <th>mvp</th>
+      <th>casualties</th>
+      <th>value</th>
+      <th>PE</th>
+      <th>actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+    <h4> interceptions </h4>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>equipo</th>
+      <th>numero</th>
+      <th>nombre</th>
+      <th>touchdowns</th>
+      <th>passes</th>
+      <th>interceptions</th>
+      <th>mvp</th>
+      <th>casualties</th>
+      <th>value</th>
+      <th>PE</th>
+      <th>actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+    <h4> Most improved </h4>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>equipo</th>
+      <th>numero</th>
+      <th>nombre</th>
+      <th>touchdowns</th>
+      <th>passes</th>
+      <th>interceptions</th>
+      <th>mvp</th>
+      <th>casualties</th>
+      <th>value</th>
+      <th>PE</th>
+      <th>actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+    <h4> Most actions </h4>
+    <span> action = touchdowns + passes + casualties + interceptions </span>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>equipo</th>
+      <th>numero</th>
+      <th>nombre</th>
+      <th>touchdowns</th>
+      <th>passes</th>
+      <th>interceptions</th>
+      <th>mvp</th>
+      <th>casualties</th>
+      <th>value</th>
+      <th>PE</th>
+      <th>actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+    </div>
+
+    </html></body>
+    

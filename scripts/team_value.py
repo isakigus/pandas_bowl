@@ -5,22 +5,30 @@ def get_teams_aggregates(data_path, teams_data_path, palyers_team_aggregates):
 
     players = pd.read_csv(data_path)
     teams = pd.read_csv(teams_data_path)
+    teams_data = pd.read_csv("data/equipos.csv")
 
     players = players.fillna(value=0)
     teams = teams.fillna(value=0)
 
+    teams = teams.set_index('raza').join(teams_data.set_index('raza'))
+
+    teams = teams.reset_index()
+
     teams['value1'] = teams['factor_inchas']*10 + \
         teams['so'] * teams['valor_so'] + 50 * teams['medico']
+
+
     teams = teams.rename(columns={'nombre': 'equipo'}, inplace=False)
 
     teams = teams.set_index('equipo')
 
-    # print(teams)
+    print(teams)
+    print('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+    print('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+    print('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 
     results = pd.concat([palyers_team_aggregates, teams], axis=1, join='outer')
     results['valor_calculado'] = results['value1'] + results['value']
-    results['valor_diff'] = results['valor'] - results['valor_calculado']
-    print(results[['valor', 'valor_calculado', 'valor_diff']])
 
     print('\n *** STATS EQUIPOS ***\n')
     team_aggregates = players.groupby('equipo').sum()
@@ -36,9 +44,7 @@ def get_teams_aggregates(data_path, teams_data_path, palyers_team_aggregates):
         'valor_so',
         'factor_inchas',
         'medico',
-        'valor',
         'valor_calculado',
-        'valor_diff'
     ]
 
     columns_ordered_stats = [
