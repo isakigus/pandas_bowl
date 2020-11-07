@@ -13,14 +13,14 @@ jinetes del ocaso,10,Thrall4,0,0,0,0,0,40,0
 jinetes del ocaso,11,Thrall5,0,0,0,0,0,40,0
 jinetes del ocaso,12,Thrall6,0,0,0,0,0,40,0
 jinetes del ocaso,13,Thrall7,0,0,0,0,0,40,0
-neme,1,were1,4,0,0,1,0,170,0
-neme,2,were2,1,0,0,0,0,120,0
+neme,1,were1,5,0,0,1,0,170,0
+neme,2,were2,1,0,0,1,1,160,0
 neme,3,golem1,0,0,0,1,0,110,0
 neme,4,wight1,0,0,0,0,1,90,0
 neme,5,wight2,0,0,0,0,0,90,0
-neme,6,ghoul1,0,0,0,0,0,70,0
+neme,6,ghoul1,0,1,0,0,0,70,0
 neme,7,ghoul2,0,0,0,0,0,70,0
-neme,8,zombi1,0,0,0,0,0,40,0
+neme,8,zombi1,1,0,0,0,0,40,0
 neme,9,zombi2,0,0,0,0,0,40,0
 neme,10,zombi3,0,0,0,0,0,40,0
 neme,11,zombi4,0,0,0,0,0,40,0
@@ -95,10 +95,10 @@ jemen,11,skin5,2,0,0,1,0,80,0
 jemen,12,skin6,0,0,0,0,0,60,0
 jemen,13,sauru6,0,0,0,0,0,80,0
 redeyes,1,guardian1,0,0,0,0,1,100,0
-redeyes,2,guardian2,0,0,0,0,1,100,0
-redeyes,3,guardian3,0,0,0,0,0,100,0
+redeyes,2,guardian2,0,0,0,1,1,120,0
+redeyes,3,guardian3,0,0,0,0,1,100,0
 redeyes,4,guardian4,0,0,0,0,0,100,0
-redeyes,5,blitzer1,0,0,0,0,0,90,0
+redeyes,5,blitzer1,1,0,0,0,0,90,0
 redeyes,6,blitzer2,0,0,0,0,0,90,0
 redeyes,7,thrower1,1,0,0,0,0,70,0
 redeyes,8,thrower2,2,0,0,2,2,120,0
