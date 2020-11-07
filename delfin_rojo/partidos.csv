@@ -2,4 +2,25 @@ jornada,equipo1,equipo2,resultado,inchas,ingresos
 1,jinetes del ocaso,nimgri,2-1,80-80,70-50
 1,frentenadie,asgard,0-2,100-70,50-40
 1,cometas siderales,michen,4-2,20-30,40-40
-1,jeman,redeyes,1-2,50-60,60-60
+1,jemen,redeyes,1-2,50-60,60-60
+1,ekilikua,neme,2-3,80-30,30-40
+2,michen,ekilikua,2-2,40-90,20-60
+2,jinetes del ocaso,neme,2-3,80-70,60-40
+2,nimgri,cometas siderales,1-2,80-80,10-50
+2,asgard,jemen,1-2,70-120,40-60
+2,redeyes,frentenadie,1-0,90-100,30-40
+3,jemen,cometas siderales,,,
+3,neme,redeyes,,,
+3,nimgri,asgard,,,
+3,michen,jinetes del ocaso,,,
+3,frentenadie,ekilikua,,,
+4,cometas siderales,neme,,,
+4,frentenadie,jinetes del ocaso,,,
+4,ekilikua,jemen,,,
+4,nimgri,redeyes,,,
+4,michen,asgard,,,
+5,cometas siderales,frentenadie,,,
+5,redeyes,michen,,,
+5,jinetes del ocaso,jemen,,,
+5,neme,asgard,,,
+5,nimgri,ekilikua,,,

@@ -50,6 +50,8 @@ def get_goles(resultado, index):
 
 def get_classification(partidos_path):
 
+    # import ipdb;ipdb.set_trace()
+
     partidos = pd.read_csv(partidos_path)
 
     partidos = partidos.fillna(value='-')
@@ -105,6 +107,8 @@ def get_classification(partidos_path):
     fuera = fuera.drop(drop_columns1, axis=1)
 
     results = pd.concat([en_casa, fuera], axis=1, join='outer')
+
+    results = results.fillna(value=0)
 
     # print(results)
 

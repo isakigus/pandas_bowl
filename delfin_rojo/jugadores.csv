@@ -1,1 +1,132 @@
-equipo,numero,nombre,touchdowns,passes,interceptions,mvp,casualties,value
+equipo,numero,nombre,touchdowns,passes,interceptions,mvp,casualties,value,heridas
+jinetes del ocaso,1,vamp1,3,2,0,1,0,170,0
+jinetes del ocaso,2,vamp2,0,0,0,0,0,110,0
+jinetes del ocaso,3,vamp3,2,0,0,0,1,140,0
+jinetes del ocaso,4,vamp4,1,1,0,1,0,140,0
+jinetes del ocaso,5,vamp5,0,0,0,0,0,110,0
+jinetes del ocaso,6,vamp6,0,0,0,0,1,110,0
+jinetes del ocaso,7,Thrall1,0,0,0,0,0,10,0
+jinetes del ocaso,7,Thrall1,0,0,0,0,0,40,0
+jinetes del ocaso,8,Thrall2,0,0,0,0,0,40,0
+jinetes del ocaso,9,Thrall3,0,0,0,0,0,40,0
+jinetes del ocaso,10,Thrall4,0,0,0,0,0,40,0
+jinetes del ocaso,11,Thrall5,0,0,0,0,0,40,0
+jinetes del ocaso,12,Thrall6,0,0,0,0,0,40,0
+jinetes del ocaso,13,Thrall7,0,0,0,0,0,40,0
+neme,1,were1,4,0,0,1,0,170,0
+neme,2,were2,1,0,0,0,0,120,0
+neme,3,golem1,0,0,0,1,0,110,0
+neme,4,wight1,0,0,0,0,1,90,0
+neme,5,wight2,0,0,0,0,0,90,0
+neme,6,ghoul1,0,0,0,0,0,70,0
+neme,7,ghoul2,0,0,0,0,0,70,0
+neme,8,zombi1,0,0,0,0,0,40,0
+neme,9,zombi2,0,0,0,0,0,40,0
+neme,10,zombi3,0,0,0,0,0,40,0
+neme,11,zombi4,0,0,0,0,0,40,0
+neme,12,zombi5,0,0,0,0,0,40,0
+neme,13,zombi6,0,0,0,0,0,40,0
+asgard,1,berseker1,0,0,0,0,1,90,-1
+asgard,2,berseker2,0,0,0,0,0,90,0
+asgard,3,werener1,0,0,0,1,0,110,0
+asgard,4,werener2,0,0,0,0,0,110,0
+asgard,4,runner1,2,0,0,0,0,110,1
+asgard,5,runner2,00,0,0,0,1,90,0
+asgard,6,Thrower1,0,0,0,0,0,70,0
+asgard,7,Thrower2,0,0,0,0,0,70,0
+asgard,8,Line1,0,0,0,0,0,50,0
+asgard,9,Line2,0,0,0,0,0,50,0
+asgard,10,Line3,1,0,0,1,0,50,0
+asgard,11,Line4,0,0,0,0,0,50,0
+asgard,12,Line5,0,0,0,0,0,50,0
+michen,1,treeman1,0,4,0,1,2,140,0
+michen,2,treeman2,0,0,0,0,1,120,0
+michen,3,halflin1,1,0,0,0,0,30,0
+michen,4,halflin2,1,0,0,0,0,30,0
+michen,5,halflin3,0,0,0,0,0,30,0
+michen,6,halflin4,0,0,0,0,0,30,0
+michen,7,halflin5,0,0,0,0,0,30,0
+michen,8,halflin6,0,0,0,0,0,30,0
+michen,9,halflin7,0,0,0,0,0,30,0
+michen,10,halflin8,0,0,0,0,0,30,0
+michen,11,halflin9,0,0,0,0,0,30,0
+michen,12,halflin10,1,1,0,1,0,50,0
+michen,13,halflin11,0,0,0,0,0,30,0
+michen,14,halflin12,2,0,0,0,0,50,0
+michen,15,halflin13,0,0,0,0,0,30,0
+michen,16,halflin14,0,0,0,0,0,30,0
+ekilikua,1,ogro1,0,0,0,1,0,140,0
+ekilikua,2,ogro2,0,0,0,0,0,140,0
+ekilikua,3,ogro3,0,0,0,1,1,160,0
+ekilikua,4,ogro4,0,0,0,0,1,140,0
+ekilikua,5,ogro5,0,0,0,0,1,140,0
+ekilikua,6,ogro6,0,0,0,0,0,140,0
+ekilikua,7,snot1,2,0,0,0,0,20,0
+ekilikua,8,snot2,0,0,0,0,0,10,0
+ekilikua,9,snot3,1,0,0,0,0,20,0
+ekilikua,10,snot4,0,0,0,0,0,20,0
+ekilikua,11,snot5,0,0,0,0,0,20,0
+ekilikua,12,snot6,0,0,0,0,0,20,0
+ekilikua,13,snot7,0,0,0,0,0,20,0
+ekilikua,14,snot8,0,0,0,0,0,20,0
+ekilikua,15,snot9,0,0,0,0,0,20,0
+frentenadie,1,slayer1,0,0,1,0,0,90,0
+frentenadie,2,slayer2,0,0,0,0,0,90,0
+frentenadie,3,runner1,0,1,0,0,0,80,0
+frentenadie,4,runner2,0,0,0,0,0,80,0
+frentenadie,5,blocker1,0,0,0,2,1,90,0
+frentenadie,6,blocker2,0,0,0,0,0,70,0
+frentenadie,7,blocker3,0,0,0,0,1,70,0
+frentenadie,8,blocker4,0,0,0,0,0,70,0
+frentenadie,9,blocker5,0,0,0,0,0,70,0
+frentenadie,10,blitzer1,0,0,0,0,0,80,0
+frentenadie,11,blitzer2,0,0,0,0,0,40,0
+jemen,1,krogui,0,0,0,0,2,140,0
+jemen,2,sauru1,0,0,0,0,1,80,0
+jemen,3,sauru2,0,0,0,0,0,80,0
+jemen,4,sauru3,0,0,0,0,0,80,0
+jemen,5,sauru4,0,0,0,0,0,80,0
+jemen,6,sauru5,0,0,0,0,0,80,0
+jemen,7,skin1,2,0,1,1,0,80,0
+jemen,8,skin2,0,0,0,0,0,10,0
+jemen,9,skin3,0,1,0,0,0,60,0
+jemen,10,skin4,0,0,0,0,0,60,0
+jemen,11,skin5,2,0,0,1,0,80,0
+jemen,12,skin6,0,0,0,0,0,60,0
+jemen,13,sauru6,0,0,0,0,0,80,0
+redeyes,1,guardian1,0,0,0,0,1,100,0
+redeyes,2,guardian2,0,0,0,0,1,100,0
+redeyes,3,guardian3,0,0,0,0,0,100,0
+redeyes,4,guardian4,0,0,0,0,0,100,0
+redeyes,5,blitzer1,0,0,0,0,0,90,0
+redeyes,6,blitzer2,0,0,0,0,0,90,0
+redeyes,7,thrower1,1,0,0,0,0,70,0
+redeyes,8,thrower2,2,0,0,2,2,120,0
+redeyes,9,esqueleto1,0,0,0,0,0,40,0
+redeyes,10,esqueleto2,0,0,0,0,0,40,0
+redeyes,11,esqueleto3,0,0,0,0,0,40,0
+redeyes,12,esqueleto4,0,0,0,0,0,40,0
+nimgri,1,beast,0,0,0,0,1,140,0
+nimgri,2,warrior1,0,0,0,1,2,130,0
+nimgri,3,warrior2,0,0,0,0,0,110,0
+nimgri,4,warrior3,0,0,0,0,2,110,0
+nimgri,5,pesti1,1,0,0,1,0,130,0
+nimgri,6,pesti2,0,0,0,0,0,80,0
+nimgri,7,pesti3,1,0,0,0,0,80,0
+nimgri,8,pesti4,0,0,0,0,0,80,0
+nimgri,9,rott1,0,0,0,0,0,40,0
+nimgri,10,rott2,0,0,0,0,0,40,0
+nimgri,11,rott3,0,0,0,0,0,40,0
+cometas siderales,1,ogro,0,0,0,0,0,140,0
+cometas siderales,2,blitzer1,2,0,0,0,0,110,0
+cometas siderales,3,blitzer2,0,0,0,0,0,90,0
+cometas siderales,4,blitzer3,4,1,0,1,2,140,0
+cometas siderales,5,blitzer4,0,0,0,0,0,90,0
+cometas siderales,6,catcher1,0,0,0,0,0,70,0
+cometas siderales,7,thrower1,0,4,0,1,0,90,0
+cometas siderales,8,linea1,0,0,0,0,0,50,0
+cometas siderales,9,linea2,0,0,0,0,0,50,0
+cometas siderales,10,linea3,0,0,0,0,0,50,0
+cometas siderales,11,linea4,0,0,0,0,0,50,0
+cometas siderales,12,linea5,0,0,0,0,0,50,0
+cometas siderales,13,linea6,0,0,0,0,0,50,0
