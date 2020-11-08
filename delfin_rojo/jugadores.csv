@@ -16,7 +16,7 @@ jinetes del ocaso,13,Thrall7,0,0,0,0,0,40,0
 neme,1,were1,5,0,0,1,0,170,0
 neme,2,were2,1,0,0,1,1,160,0
 neme,3,golem1,0,0,0,1,0,110,0
-neme,4,wight1,0,0,0,0,1,90,0
+neme,4,wight1,1,0,0,0,1,90,0
 neme,5,wight2,0,0,0,0,0,90,0
 neme,6,ghoul1,0,1,0,0,0,70,0
 neme,7,ghoul2,0,0,0,0,0,70,0
@@ -28,15 +28,15 @@ neme,12,zombi5,0,0,0,0,0,40,0
 neme,13,zombi6,0,0,0,0,0,40,0
 asgard,1,berseker1,0,0,0,0,1,90,-1
 asgard,2,berseker2,0,0,0,0,0,90,0
-asgard,3,werener1,0,0,0,1,0,110,0
+asgard,3,werener1,1,0,0,1,1,130,0
 asgard,4,werener2,0,0,0,0,0,110,0
-asgard,4,runner1,2,0,0,0,0,110,1
-asgard,5,runner2,00,0,0,0,1,90,0
+asgard,4,runner1,2,0,0,0,0,70,0
+asgard,5,runner2,00,0,0,1,1,90,0
 asgard,6,Thrower1,0,0,0,0,0,70,0
 asgard,7,Thrower2,0,0,0,0,0,70,0
-asgard,8,Line1,0,0,0,0,0,50,0
-asgard,9,Line2,0,0,0,0,0,50,0
-asgard,10,Line3,1,0,0,1,0,50,0
+asgard,8,Line1,0,0,0,0,0,50,1
+asgard,9,Line2,1,0,0,1,0,80,0
+asgard,10,Line3,1,0,0,1,0,80,0
 asgard,11,Line4,0,0,0,0,0,50,0
 asgard,12,Line5,0,0,0,0,0,50,0
 michen,1,treeman1,0,4,0,1,2,140,0
@@ -81,7 +81,7 @@ frentenadie,8,blocker4,0,0,0,0,0,70,0
 frentenadie,9,blocker5,0,0,0,0,0,70,0
 frentenadie,10,blitzer1,0,0,0,0,0,80,0
 frentenadie,11,blitzer2,0,0,0,0,0,40,0
-jemen,1,krogui,0,0,0,0,2,140,0
+jemen,1,krogui,0,0,0,1,2,140,0
 jemen,2,sauru1,0,0,0,0,1,80,0
 jemen,3,sauru2,0,0,0,0,0,80,0
 jemen,4,sauru3,0,0,0,0,0,80,0
@@ -89,7 +89,7 @@ jemen,5,sauru4,0,0,0,0,0,80,0
 jemen,6,sauru5,0,0,0,0,0,80,0
 jemen,7,skin1,2,0,1,1,0,80,0
 jemen,8,skin2,0,0,0,0,0,10,0
-jemen,9,skin3,0,1,0,0,0,60,0
+jemen,9,skin3,1,2,0,0,0,60,0
 jemen,10,skin4,0,0,0,0,0,60,0
 jemen,11,skin5,2,0,0,1,0,80,0
 jemen,12,skin6,0,0,0,0,0,60,0
@@ -107,24 +107,24 @@ redeyes,10,esqueleto2,0,0,0,0,0,40,0
 redeyes,11,esqueleto3,0,0,0,0,0,40,0
 redeyes,12,esqueleto4,0,0,0,0,0,40,0
 nimgri,1,beast,0,0,0,0,1,140,0
-nimgri,2,warrior1,0,0,0,1,2,130,0
+nimgri,2,warrior1,0,0,0,1,3,130,0
 nimgri,3,warrior2,0,0,0,0,0,110,0
-nimgri,4,warrior3,0,0,0,0,2,110,0
+nimgri,4,warrior3,0,0,0,1,2,110,0
 nimgri,5,pesti1,1,0,0,1,0,130,0
 nimgri,6,pesti2,0,0,0,0,0,80,0
 nimgri,7,pesti3,1,0,0,0,0,80,0
 nimgri,8,pesti4,0,0,0,0,0,80,0
 nimgri,9,rott1,0,0,0,0,0,40,0
-nimgri,10,rott2,0,0,0,0,0,40,0
+nimgri,10,rott2,0,0,0,0,0,40,-1
 nimgri,11,rott3,0,0,0,0,0,40,0
 cometas siderales,1,ogro,0,0,0,0,0,140,0
 cometas siderales,2,blitzer1,2,0,0,0,0,110,0
 cometas siderales,3,blitzer2,0,0,0,0,0,90,0
 cometas siderales,4,blitzer3,4,1,0,1,2,140,0
 cometas siderales,5,blitzer4,0,0,0,0,0,90,0
-cometas siderales,6,catcher1,0,0,0,0,0,70,0
-cometas siderales,7,thrower1,0,4,0,1,0,90,0
-cometas siderales,8,linea1,0,0,0,0,0,50,0
+cometas siderales,6,catcher1,1,0,0,0,0,70,0
+cometas siderales,7,thrower1,0,5,0,1,0,90,0
+cometas siderales,8,linea1,0,1,0,1,0,70,0
 cometas siderales,9,linea2,0,0,0,0,0,50,0
 cometas siderales,10,linea3,0,0,0,0,0,50,0
 cometas siderales,11,linea4,0,0,0,0,0,50,0

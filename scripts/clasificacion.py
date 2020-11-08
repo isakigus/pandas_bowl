@@ -50,8 +50,6 @@ def get_goles(resultado, index):
 
 def get_classification(partidos_path):
 
-    # import ipdb;ipdb.set_trace()
-
     partidos = pd.read_csv(partidos_path)
 
     partidos = partidos.fillna(value='-')

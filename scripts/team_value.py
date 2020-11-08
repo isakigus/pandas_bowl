@@ -10,13 +10,21 @@ def get_teams_aggregates(data_path, teams_data_path, palyers_team_aggregates):
     players = players.fillna(value=0)
     teams = teams.fillna(value=0)
 
+
+    try:
+        players.loc[players.heridas != 0, 'value'] = 0
+
+        players.loc[players.heridas == -1, 'muertos'] = 1
+
+    except Exception:
+        pass
+
     teams = teams.set_index('raza').join(teams_data.set_index('raza'))
 
     teams = teams.reset_index()
 
     teams['value1'] = teams['factor_inchas']*10 + \
         teams['so'] * teams['valor_so'] + 50 * teams['medico']
-
 
     teams = teams.rename(columns={'nombre': 'equipo'}, inplace=False)
 
@@ -62,5 +70,6 @@ def get_teams_aggregates(data_path, teams_data_path, palyers_team_aggregates):
     team_aggregates_values = results[columns_ordered]
 
     team_aggregates_stats = results[columns_ordered_stats]
-
+    team_aggregates_stats = team_aggregates_stats.sort_values(
+        by=['PE'], ascending=False)
     return team_aggregates_values, team_aggregates_stats

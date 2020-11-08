@@ -18,3 +18,8 @@ Visit
 * Do not delete dead players, move them to other file
 * Use match stats
 * Create stats by coach
+
+# TODO
+
+* most expensive players
+* players with more str,ag,mv ...skills?
